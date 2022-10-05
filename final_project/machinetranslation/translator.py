@@ -10,7 +10,7 @@ apikey = os.environ[ 'apikey' ]
 apiurl = os.environ[ 'apiurl' ]
 
 authenticator = IAMAuthenticator(apikey)
-language_translator = LanguageTranslatorV3(version='2021-08-01', authenticator = authenticator)
+language_translator = LanguageTranslatorV3(version='2018-05-01', authenticator = authenticator)
 language_translator.set_service_url(apiurl)
 
 def english_to_french(english_text):
