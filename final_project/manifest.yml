@@ -1,5 +1,7 @@
 ---
 applications:
- - name: ibmlearner_translation_app
+ - name: Roshan's Translation Web App (En/Fr)
+   type: html5
+   buildpack: python_buildpack
    random-random: true
    memory: 64M
